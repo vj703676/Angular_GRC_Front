@@ -25,6 +25,7 @@ import { AuthInterceptor } from './interceptors/auth-interceptor';
 import { CommonModule } from '@angular/common';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { MatAutocompleteModule, MatFormFieldModule, MatInputModule, MatTooltipModule } from '@angular/material';
+import { TachesComponent } from './taches/taches.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MatAutocompleteModule, MatFormFieldModule, MatInputModule, MatTooltipMo
     SignupComponent,
     NewThingWithUploadComponent,
     ModifyThingWithUploadComponent,
-    AutocompleteComponent
+    AutocompleteComponent,
+    TachesComponent
     
   ],
     imports: [
