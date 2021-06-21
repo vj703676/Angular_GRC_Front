@@ -51,9 +51,9 @@ const routes: Routes = [
       { path: '**', redirectTo: 'all-stuff' }
     ]
   },
-  { path: 'default', component: DefaultComponent },
-  { path: '', pathMatch: 'full', component: DefaultComponent },
-  { path: '**', redirectTo: '' }
+    { path: 'default', component: PartFourComponent },
+    { path: '', pathMatch: 'full', redirectTo: 'auth/login' },
+    { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
